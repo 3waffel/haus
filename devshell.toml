@@ -1,0 +1,26 @@
+[devshell]
+packages = [
+  "alejandra",
+  "dprint",
+  "rust-analyzer-nightly",
+  "yarn",
+  "nodePackages.npm",
+  "wasm-pack",
+  "binaryen",
+]
+
+[[commands]]
+package = "treefmt"
+category = "formatter"
+
+[[commands]]
+package = "wasm-toolchain"
+name = "cargo"
+help = "manage dependencies and the full build cycle of rust programs"
+category = "devtools"
+
+[[commands]]
+package = "wasm-toolchain"
+name = "rustc"
+help = "the rust compiler"
+category = "devtools"
