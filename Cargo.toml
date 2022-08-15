@@ -2,8 +2,8 @@
 name = "haus"
 version = "0.1.0"
 categories = ["wasm"]
-edition = "2018"
-license = "Apache-2.0/MIT"
+edition = "2021"
+license = "MIT"
 readme = "./README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

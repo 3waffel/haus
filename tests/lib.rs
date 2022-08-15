@@ -3,8 +3,8 @@ use wasm_bindgen_test::*;
 wasm_bindgen_test_configure!(run_in_browser);
 
 use yew::start_app;
-use yew_app::app::App as YewApp;
-use yew_app::components::nav::Nav;
+use haus::app::App as YewApp;
+use haus::components::nav::Nav;
 
 #[wasm_bindgen_test]
 fn app_has_a_home_page() {

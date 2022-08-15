@@ -1,28 +1,36 @@
 # Haus
 
-## How to install
+## wasm-pack
+
+### Install
 
 ```sh
 npm install
 ```
 
-## How to run in debug mode
+### Run in debug mode
 
 ```sh
 # Builds the project and opens it in a new browser tab. Auto-reloads when the project changes.
 npm start
 ```
 
-## How to build in release mode
+### Build in release mode
 
 ```sh
 # Builds the project and places it into the `dist` folder.
 npm run build
 ```
 
-## How to run unit tests
+### Run unit tests
 
 ```sh
 # Runs tests
 npm test
+```
+
+## Trunk
+
+```sh
+trunk serve
 ```

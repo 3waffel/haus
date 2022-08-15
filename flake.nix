@@ -67,7 +67,6 @@
               (nix-filter.lib.inDirectory "src")
             ];
           };
-          copyBins = false;
           copyLibs = true;
         };
 
