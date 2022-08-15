@@ -21,6 +21,7 @@ wee_alloc = "0.4.5"
 yew = "0.19.3"
 yew-hooks = "0.1.56"
 yew-router = "0.16.0"
+yew-oauth2 = "0.3"
 
 [dev-dependencies]
 gloo-utils = "0.1.0"
