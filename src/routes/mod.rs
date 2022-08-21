@@ -10,12 +10,12 @@ use home::Home;
 /// App routes
 #[derive(Routable, Debug, Clone, PartialEq)]
 pub enum AppRoute {
-    #[at("/about")]
+    #[at("/haus/about")]
     About,
     #[not_found]
-    #[at("/page-not-found")]
+    #[at("/haus/page-not-found")]
     PageNotFound,
-    #[at("/")]
+    #[at("/haus")]
     Home,
 }
 

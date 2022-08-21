@@ -1,5 +1,3 @@
-use haus::run;
-
 pub fn main() {
-    run().unwrap();
+    haus_lib::run().unwrap();
 }

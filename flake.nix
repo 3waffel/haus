@@ -74,6 +74,12 @@
           imports = [
             (pkgs.devshell.importTOML ./devshell.toml)
           ];
+          env = [
+            {
+              name = "PKG_CONFIG_PATH";
+              value = "${pkgs.openssl.dev}/lib/pkgconfig";
+            }
+          ];
         };
       }
     );

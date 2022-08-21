@@ -10,3 +10,16 @@ includes = [
   "*.toml",
   "*.md",
 ]
+
+[formatter.prettier]
+command = "prettier"
+options = ["--write"]
+includes = [
+  "*.css",
+  "*.html",
+  "*.js",
+  "*.jsx",
+  "*.scss",
+  "*.ts",
+  "*.tsx",
+]

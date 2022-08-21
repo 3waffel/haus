@@ -1,3 +1,3 @@
-import { run } from '../Cargo.toml'
+import { run } from "../Cargo.toml";
 
-run()
+run();

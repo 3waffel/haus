@@ -1,0 +1,8 @@
+[build]
+target = "index.html"
+dist = "dist"
+release = false
+public_url = "/haus/"
+
+[clean]
+dist = "dist"

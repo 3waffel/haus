@@ -2,7 +2,6 @@ use serde::{de::DeserializeOwned, Deserialize, Serialize};
 use yew::prelude::*;
 use yew_hooks::prelude::*;
 
-/// About page
 #[function_component(About)]
 pub fn about() -> Html {
     let state =
