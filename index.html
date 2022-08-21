@@ -4,11 +4,12 @@
     
     
     <link rel="stylesheet" href="/haus/styles-1e619427f692ff5b.css">
+    
     <title>Yew App</title>
   
 <link rel="preload" href="/haus/haus-4e9c1bc06b7085c8_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
 <link rel="modulepreload" href="/haus/haus-4e9c1bc06b7085c8.js"></head>
-  <body>  
+  <body>
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
@@ -21,17 +22,24 @@
       // When the single page app is loaded further down in this file,
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      }(window.location))
+      })(window.location);
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
   
+
 <script type="module">import init from '/haus/haus-4e9c1bc06b7085c8.js';init('/haus/haus-4e9c1bc06b7085c8_bg.wasm');</script></body></html>
